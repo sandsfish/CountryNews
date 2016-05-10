@@ -1,0 +1,1149 @@
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:18] "GET /mexico HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:18] "GET /mexico?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:19] "GET /mexico?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:19] "GET /mexico?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:19] "GET /mexico?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:19] "GET /mexico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:04:19] "GET /mexico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:07] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:08] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:08] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:08] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:26] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:26] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:26] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:26] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:28] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:28] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:28] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:28] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:43] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:43] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:43] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:43] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:46] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:46] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:46] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:05:46] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:39] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:40] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:40] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:40] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:42] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:42] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:42] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:43] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:44] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:10:44] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:11:13] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:11:14] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:11:14] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:11:14] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:11] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:11] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:11] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:11] "GET /static/mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:11] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:13] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:13] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:13] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:13] "GET /static/mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:13] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:14] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /static/mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /static/mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /static/mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:15] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:18] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:18] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:18] "GET /static/mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:18] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:32] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:32] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:32] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:32] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:32] "GET /mexico-city-background.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:48] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:48] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:48] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:15:48] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:17:54] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:17:54] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:17:54] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:17:54] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:18] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:18] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:18] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:18] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:31] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:31] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:31] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:19:31] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:20:40] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:20:40] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:20:41] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:20:41] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:04] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:04] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:04] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:04] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:22] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:22] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:22] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:22] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:36] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:37] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:37] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:37] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:43] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:43] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:21:43] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:23:24] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:23:24] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:23:24] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:23:24] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:27] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:28] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:28] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:28] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:46] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:46] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:46] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:24:46] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:04] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:04] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:04] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:04] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:10] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:10] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:10] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:10] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:24] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:24] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:24] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:24] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:29] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:29] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:29] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:29] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:33] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:33] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:33] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:25:33] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:26:20] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:26:20] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:26:20] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:26:20] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:27:00] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:27:00] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:27:00] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:27:00] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:40:21] "GET /landscape_live/1068/953/7966 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 01:40:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:10:23] "GET /mexico HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:10:23] "GET /mexico?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:10:24] "GET /mexico?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:10:24] "GET /mexico?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:10:24] "GET /mexico?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:10:24] "GET /mexico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:10:24] "GET /mexico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2178
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:11:42] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:11:42] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:11:42] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:11:42] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2169
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:21:50] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:21:50] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:21:50] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:21:50] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2168
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:22:18] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:22:18] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:22:18] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:22:18] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2164
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:24:19] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:24:19] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:24:19] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:24:19] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2189
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:08] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:08] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:08] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:08] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2179
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:32] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:32] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:32] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 02:25:32] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2165
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:28] "GET /mexico HTTP/1.1" 200 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/sands/.virtualenvs/datawork/lib/python2.7/site-packages/werkzeug/serving.py", line 193, in run_wsgi
+    execute(self.server.app)
+  File "/Users/sands/.virtualenvs/datawork/lib/python2.7/site-packages/werkzeug/serving.py", line 184, in execute
+    write(data)
+  File "/Users/sands/.virtualenvs/datawork/lib/python2.7/site-packages/werkzeug/serving.py", line 162, in write
+    self.end_headers()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 412, in end_headers
+    self.wfile.write("\r\n")
+IOError: [Errno 32] Broken pipe
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2188
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:33] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2156
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:38] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2151
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:43] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2170
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:48] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:49] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:49] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 16:17:52] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2164
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 18:03:01] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 18:03:02] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 18:03:02] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2016 18:03:04] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 13:54:21] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 13:54:22] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 13:54:22] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 13:54:22] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 13:54:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 13:58:10] "GET /landscape_live/1068/953/7966 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2179
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:05:59] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:05:59] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:05:59] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:06:03] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:32:28] "GET /sentences HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:32:28] "GET /sentences?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:32:28] "GET /sentences?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:32:28] "GET /sentences?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:32:28] "GET /sentences?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:32:28] "GET /sentences?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:32:29] "GET /sentences?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:33:04] "GET /sentences HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:33:05] "GET /sentences?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:33:05] "GET /sentences?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:33:05] "GET /sentences?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:33:05] "GET /sentences?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:33:05] "GET /sentences?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:35:10] "GET /sentences HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:36:00] "GET /mexico HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:36:00] "GET /mexico?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:36:00] "GET /mexico?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:36:00] "GET /mexico?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:36:00] "GET /mexico?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:36:00] "GET /mexico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:36:01] "GET /mexico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2180
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:37:49] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2183
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:37:52] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:37:53] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:37:53] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:37:53] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:39:35] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:39:35] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:41:39] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:41:39] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:41:39] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:41:39] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:41:39] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:41:40] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:41:40] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:33] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:33] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:33] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:33] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:33] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:39] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:39] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:52] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:53] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:53] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:53] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:53] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2195
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:57] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:42:57] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2162
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:50:47] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:50:47] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:50:47] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:50:47] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2165
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:50:55] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:50:55] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2189
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:54:12] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:54:12] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:54:12] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:54:12] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:54:12] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2187
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:54:15] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:54:15] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2192
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:57:50] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:57:50] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:57:50] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:57:50] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 500 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2197
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:57:52] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 14:57:52] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2192
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:01:45] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:01:45] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:01:45] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:01:45] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:01:45] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2194
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:01:52] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:01:52] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2197
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:03:40] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:03:40] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:03:40] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:03:41] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2194
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:03:46] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:03:46] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2179
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:10:43] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:10:43] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:10:43] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:10:43] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:10:44] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2168
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:10:45] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:10:45] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2181
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:10] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:11] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:11] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:11] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:11] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2183
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:15] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:15] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2187
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:43] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:43] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:43] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:43] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:44] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2188
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:45] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:14:45] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2187
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:16:26] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:16:26] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:16:26] "GET /js/scripts.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:16:27] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:16:27] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2181
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:16:31] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:16:31] "GET /css/styles.css?v=1.0 HTTP/1.1" 404 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2178
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:19:46] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:19:47] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2179
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:19:49] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2170
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:20:34] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:20:35] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2185
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:20:37] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2173
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:21:19] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:21:19] "GET /sentences?terms=mexico+AND+president&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2183
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:21:21] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:22:07] "GET /sentences HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:22:08] "GET /sentences HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:47] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:47] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:47] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:47] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:47] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:47] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:48] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:48] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:25:48] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:17] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:17] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:17] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:17] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:17] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:18] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:18] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:28:18] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:48] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:48] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:48] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:48] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:48] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:49] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:49] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:31:49] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:04] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:04] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:04] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:04] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:04] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:04] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:05] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:32:05] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:30] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:55:39] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:29] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:29] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:29] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:29] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:30] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 15:58:30] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:35:43] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:19] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:20] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:20] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:20] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:20] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:20] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:22] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:52] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:53] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:56] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:56] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:56] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:56] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:57] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:57] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:57] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:57] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:36:57] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:51] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:51] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:51] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:51] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:51] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:51] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:52] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:52] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:37:52] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:38:25] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/list with {'q': '1350 AND None', 'fq': '', 'rows': 1000, 'sort': 'publish_date_asc', 'start': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/list?sort=publish_date_asc&fq=&rows=1000&q=1350+AND+None&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x103779410%3E HTTP/1.1" 403 116
+ERROR:mediacloud.api:Bad HTTP response to https://api.mediacloud.org/api/v2/sentences/list?sort=publish_date_asc&fq=&rows=1000&q=1350+AND+None&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x103779410%3E : 403 Forbidden
+ERROR:mediacloud.api:	{"error":"Error(s): Invalid API key or authentication cookie. at lib/MediaWords/ActionRole/Throttled.pm line 32.\n"}
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:39] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:39] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:40] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:40] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:40] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/list with {'q': '1350 AND None', 'fq': '', 'rows': 1000, 'sort': 'publish_date_asc', 'start': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/list?sort=publish_date_asc&fq=&rows=1000&q=1350+AND+None&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x103779410%3E HTTP/1.1" 403 116
+ERROR:mediacloud.api:Bad HTTP response to https://api.mediacloud.org/api/v2/sentences/list?sort=publish_date_asc&fq=&rows=1000&q=1350+AND+None&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x103779410%3E : 403 Forbidden
+ERROR:mediacloud.api:	{"error":"Error(s): Invalid API key or authentication cookie. at lib/MediaWords/ActionRole/Throttled.pm line 32.\n"}
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:39:40] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:19] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:19] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:20] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:20] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:43:34] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND mexico', 'fq': '', 'last_processed_stories_id': 0, 'rows': 20}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+mexico&fq=&last_processed_stories_id=0&rows=20&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 16228
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:44:25] "GET /sentences_raw?terms=mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND mexico', 'fq': '', 'last_processed_stories_id': 0, 'rows': 20}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+mexico&fq=&last_processed_stories_id=0&rows=20&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 16228
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:44:39] "GET /sentences_raw?terms=mexico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND mexico', 'fq': '', 'last_processed_stories_id': 0, 'rows': 20}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+mexico&fq=&last_processed_stories_id=0&rows=20&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 16228
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:46:02] "GET /stories_raw?terms=mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND mexico', 'fq': '', 'last_processed_stories_id': 0, 'rows': 20}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+mexico&fq=&last_processed_stories_id=0&rows=20&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 16228
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:46:12] "GET /stories_raw?terms=mexico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND mexico', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+mexico&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 96487
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:49:32] "GET /stories_raw?terms=mexico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 16:55:06] "GET /stories_raw?terms=gobierno HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2174
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:00:18] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:00:27] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/list with {'q': u'{~ controversy:1350} AND mexico', 'fq': '', 'rows': 100, 'sort': 'publish_date_asc', 'start': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/list?sort=publish_date_asc&fq=&rows=100&q=%7B~+controversy%3A1350%7D+AND+mexico&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x1084e5410%3E HTTP/1.1" 403 116
+ERROR:mediacloud.api:Bad HTTP response to https://api.mediacloud.org/api/v2/sentences/list?sort=publish_date_asc&fq=&rows=100&q=%7B~+controversy%3A1350%7D+AND+mexico&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x1084e5410%3E : 403 Forbidden
+ERROR:mediacloud.api:	{"error":"Error(s): Invalid API key or authentication cookie. at lib/MediaWords/ActionRole/Throttled.pm line 32.\n"}
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:02:11] "GET /sentences_raw?terms=mexico HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:02:11] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:02:11] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:02:11] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:02:11] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:02:11] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2169
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:03:51] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:04:08] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2171
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:04:37] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:04:47] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2178
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:05:15] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:05:26] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2168
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:05:37] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:05:47] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/list with {'q': u'{~ controversy:1350} AND mexico', 'fq': '', 'rows': 100, 'sort': 'publish_date_asc', 'start': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/list?sort=publish_date_asc&fq=&rows=100&q=%7B~+controversy%3A1350%7D+AND+mexico&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x1084e5410%3E HTTP/1.1" 403 116
+ERROR:mediacloud.api:Bad HTTP response to https://api.mediacloud.org/api/v2/sentences/list?sort=publish_date_asc&fq=&rows=100&q=%7B~+controversy%3A1350%7D+AND+mexico&start=0&key=%3Cmediacloud.api.MediaCloud+object+at+0x1084e5410%3E : 403 Forbidden
+ERROR:mediacloud.api:	{"error":"Error(s): Invalid API key or authentication cookie. at lib/MediaWords/ActionRole/Throttled.pm line 32.\n"}
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:08:25] "GET /sentences_raw?terms=mexico HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:08:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:08:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:08:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:08:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:08:25] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2180
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:14:12] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:14:23] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2173
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:27:41] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:27:41] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2169
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:28:16] "GET /mexico HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:28:31] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 17:28:47] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:07:12] "GET /sentences_raw?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:07:12] "GET /mexico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'l': 'en', 'q': '{~ controversy:1350 }', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 50}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?l=en&q=%7B~+controversy%3A1350+%7D&sample_size=1000&include_stopwords=0&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f&include_stats=0&num_words=50 HTTP/1.1" 200 2163
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:13:52] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:13:53] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug: * Detected change in '/Users/sands/GoogleDrive/MIT/MediaLab/Classes/ParticipatoryMedia/FinalProject/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:MediaCloud API Initializing...
+INFO:root:MediaCloud API Initialized.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 241-912-315
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/stories_public/list with {'q': u'{~ controversy:1350} AND gobierno', 'fq': '', 'last_processed_stories_id': 0, 'rows': 100}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/stories_public/list?q=%7B~+controversy%3A1350%7D+AND+gobierno&fq=&last_processed_stories_id=0&rows=100&key=c300df092175a8c3e2c3b5638a3bdbd80214be36581b498d85b1e6d14146748f HTTP/1.1" 200 77975
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:14:23] "GET /stories_raw?terms=gobierno&format=json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:15:57] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:15:58] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:16:46] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:16:46] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:17:15] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:17:15] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:20:32] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:20:33] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:21:05] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:21:06] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:21:20] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:21:20] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:21:21] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:21:22] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:31:11] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:31:15] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:31:38] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:31:38] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:31:54] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:31:54] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:02] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:03] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:13] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:13] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:26] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:27] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:38] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:38] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:44] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:45] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:51] "GET /mexico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2016 18:33:51] "GET /static/images/mexico-city-background.jpg HTTP/1.1" 304 -

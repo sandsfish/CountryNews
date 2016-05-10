@@ -1,0 +1,133 @@
+<!doctype html>
+
+<!-- http://www.sitepoint.com/a-basic-html5-template/ -->
+<!-- http://stackoverflow.com/questions/15409605/css3-filter-blur-keyframe-animation -->
+<!-- alt effect: http://stackoverflow.com/questions/24709915/blur-the-edges-of-an-image-or-background-image-with-css -->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Mouse-Over Blur Animation Example</title>
+  <meta name="description" content="Code for animated bluring of images on mouseover.">
+  <meta name="author" content="Sands Fish">
+
+  <style>
+  	body {
+
+		/*Examples of gradient CSS: http://jsfiddle.net/banded_krait/AZK5d/2/*/
+		/*Radial Gradients: http://stackoverflow.com/questions/22216627/how-to-create-a-vignette-with-background-gradients;*/
+		/*Defined Edges with Blur: http://stackoverflow.com/questions/12224320/defined-edges-with-css3-filter-blur*/
+
+		/*background: url(mexico-city-background.jpg) no-repeat center -200px;*/
+  		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(mexico-city-background.jpg) no-repeat center -200px;
+		/*background: radial-gradient(transparent, black), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		/*background: radial-gradient(transparent, black), */
+		/*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(white)), url(mexico-city-background.jpg) no-repeat center -200px;;*/
+		/*background: -webkit-linear-gradient(top, black, white), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		/*background: -webkit-gradient(linear, left top, left bottom, from(#1A1B1B), to(#191919)), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(24%,rgba(0,0,0,0)), color-stop(86%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))), url(mexico-city-background.jpg) no-repeat center -200px;;*/
+		/*background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 24%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		background-color: #000000;
+  		background-position:center top;
+  		background-size: cover;
+    	/*min-height: 100%*/
+
+    	font-family: "Palanquin", sans-serif;
+    	-webkit-font-smoothing: antialiased;
+
+  	}
+
+	@-webkit-keyframes image_blur {
+	    0% { -webkit-filter: blur(0px);}
+	    100% { -webkit-filter: blur(5px);}
+	}
+
+	#image {
+	    width    : 800px;
+	    height   : 600px;
+	    background: url('mexico-city-background.jpg'), radial-gradient(transparent, black);
+	    /*background: url('mexico-city-background.jpg');*/
+	    /*overflow: hidden;*/
+	    /*overflow-x: hidden;
+	    overflow-y: hidden;*/
+	    margin: -5px -10px -10px -5px;
+	    /*border-style: solid;
+    	border-color: #ffffff;
+    	border-bottom-style: none;*/
+    	position: absolute;
+    	background-clip: border-box;
+    	background-origin: padding-box;
+    	background-repeat: repeat;;
+    	background-size: auto;
+    	clip: auto;
+    	clip-path: none;
+    	clip-rule: nonzero;
+    	box-sizing: content-box;
+    	display: block;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;
+    	margin-right: 0px;
+    	mask-type: luminance;
+
+	}
+
+	#bounding_box {
+		border-style: solid 2px;
+    	border-color: #ffffff;
+    	clip: auto;
+    	clip-path: none;
+    	clip-rule: nonzero;
+    	box-sizing: content-box;
+    	display: block;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;
+    	margin-right: 0px;
+    	overflow: hidden;
+	    overflow-x: hidden;
+	    overflow-y: hidden;
+    	
+	}
+
+	#image:hover {
+	    -webkit-animation: image_blur 1s;
+	    /*filter: blur(5px);
+	    -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);*/
+    	margin: -5px -10px -10px -5px;
+	    animation-fill-mode: forwards;
+	    animation-timing-function: ease;
+	}
+
+	.header {
+		color: #ffffff;
+		font-size: 100px;
+		text-align: center;
+	}
+  </style>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+
+  <br/>
+  <h1 class="header">Mexico</h1>
+
+  <div id="bounding_box">
+	<img id="image" style="margin: -5px -10px -10px -5px;"/>  
+  </div>
+
+	  
+
+</body>
+</html>

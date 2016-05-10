@@ -88,6 +88,24 @@ def sentences_raw():
 
 	return(jsonify(results=sentences));
 
+@app.route('/top_stories/<int:cid>')
+def top_stories(cid):
+	topicStoriesAPI = 'https://api.mediacloud.org/api/v2/topics/{0}/stories/list?limit=100&key={1}'.format(cid, api_key)
+	stories = requests.get(topicStoriesAPI)
+	return(stories.text)
+
+
+@app.route('/top_media/<int:cid>')
+def top_media(cid):
+	topicMediaAPI = 'https://api.mediacloud.org/api/v2/topics/{0}/media/list?limit=100&key={1}'.format(cid, api_key)
+	media = requests.get(topicMediaAPI)
+	return(media.text)
+
+@app.route('/top_words/<int:cid>')
+def top_words(cid):
+	topicWordsAPI = 'https://api.mediacloud.org/api/v2/topics/{0}/wc/list?key={1}'.format(cid, api_key)
+	words = requests.get(topicWordsAPI)
+	return(words.text)	
 
 if __name__ == '__main__':
     app.run(debug=True)

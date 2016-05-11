@@ -3,7 +3,7 @@
 
     var annotate = function() {
       jQuery(function ($) {
-        $('#notebook').annotator().annotator('setupPlugins');
+        $('#nb_top_media, #nb_top_stories, #nb_top_words').annotator().annotator('setupPlugins');
       });
     }
 
@@ -21,7 +21,11 @@
             $("<a>", { href: item.url, target: '_article' }).text(
               item.title
             ) 
-          ).appendTo( "#top_stories_list" );
+          ).click(function(event) {
+            event.preventDefault();
+            copyToNotebook(this, "#nb_top_stories_list");
+          })
+          .appendTo( "#top_stories_list" );
           if(i > 25) {
             return false;
           }
@@ -50,10 +54,15 @@
       .done(function( data ) {
         $(data['words']).each(function( i, item ) {
           $( "<div>" ).addClass('item').append( 
-            $("<a>", { href: '#', onclick: "copyWordToNotebook(this);", target: '_word' }).text(
+            $("<a>", { href: '#', target: '_word' }).text(
               item.term + ' (' + item.count + ')'
             ) 
-          ).appendTo( "#top_words_list" );
+          ).click(function(event) {
+            event.preventDefault();
+            copyToNotebook(this, "#nb_top_words_list");
+          })
+          .appendTo( "#top_words_list" );
+          
           if(i > 25) {
             return false;
           }
@@ -85,7 +94,11 @@
             $("<a>", { href: item.url, target: '_media' }).text(
               item.name + ' (' + item.inlink_count + ' / ' + item.bitly_click_count + ')'
             ) 
-          ).appendTo( "#top_media_list" );
+          ).click(function(event) {
+            event.preventDefault();
+            copyToNotebook(this, "#nb_top_media_list");
+          })
+          .appendTo( "#top_media_list" );
           if(i > 25) {
             return false;
           }
@@ -110,15 +123,15 @@
     $( "#top_words" ).animate({height:'toggle'},200);
     $( "#notebook" ).animate({height:'toggle'},600);
     
-    $( "#nb_top_words_list" ).animate({width:'toggle'},600);
-    $( "#nb_top_stories_list" ).animate({width:'toggle'},600);
-    $( "#nb_top_media_list" ).animate({width:'toggle'},600);
+    $( "#nb_top_words_list" ).animate({height:'toggle'},600);
+    $( "#nb_top_stories_list" ).animate({height:'toggle'},600);
+    $( "#nb_top_media_list" ).animate({height:'toggle'},600);
   }
 
-  var copyWordToNotebook = $(function(word) {
+  var copyToNotebook = function(word, destination) {
     var $dupWord = $(word).clone();
-    $('.nb_top_words_list').html($dupWord);
-  });
+    $( $dupWord ).appendTo( $(destination) );
+  };
 
 
 

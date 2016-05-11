@@ -78,7 +78,6 @@
     	margin-left: 0px;
     	margin-right: 0px;
     	mask-type: luminance;
-
 	}
 
 	#bounding_box {
@@ -98,7 +97,6 @@
 	    overflow-y: hidden;
       float: right;
       padding: 25px;
-    	
 	}
 
 	#image:hover {
@@ -132,7 +130,6 @@
   }
 
   a {
-
     color: #ffffff;
   }
 
@@ -151,21 +148,21 @@
     border-color: #ffffff;
   }
   .blur {
-      width:100%;
-      height:100%;
-      position: absolute;
-      background-image:url('/static/images/mexico-city-background.jpg');
-      background-size:cover;
-      -webkit-filter: blur(4px);
-      -moz-filter: blur(4px);
-      -ms-filter: blur(4px);
-      -o-filter: blur(4px);
-      filter: blur(4px);
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-image:url('/static/images/mexico-city-background.jpg');
+    background-size:cover;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px);
+    filter: blur(4px);
   }
   .content{
-      position: absolute;
-      background-color:red;
-          border-style: solid 2px;
+    position: absolute;
+    background-color:red;
+    border-style: solid 2px;
     border-color: #ffffff;
   }
 
@@ -185,6 +182,26 @@
     border-style: solid 2px;
     border-color: #ffffff;
     padding: 5px;
+  }
+
+  #stories, #top_words, #top_media {
+    display: none;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .column_header img {
+    float: left;
+    /*width: 100px;
+    height: 100px;*/
+    /*background: #555;*/
+  }
+
+  .column_header h1 {
+    position: relative;
+    margin-left: 0px;
+    /*top: 18px;
+    left: 10px;*/
   }
 
   </style>
@@ -207,8 +224,10 @@
     var mexico_topic_id = 1350;
     var nigeria_topic_id = 1348;
 
+    ////////////////////////////////////////////////////////////////////
+    // Top Stories for Topic
+
     var pullStories = function(terms) {
-      console.log(terms);
       var storiesAPI = "http://localhost:5000/stories_raw";
       $.getJSON( storiesAPI, {
         terms: terms,
@@ -225,13 +244,15 @@
             return false;
           }
         });
+        $( "#stories" ).slideDown("slow");
+        console.log("Completed pulling top stories.")
       });
     };
     pullStories("mexico");
+    
 
     $( "a#reload_stories" ).live( "click", function( event ) {
       event.preventDefault();
-      console.log('Reflowing stories list...')
       $("#stories_list").empty();
       pullStories("mexico");
     });
@@ -255,13 +276,15 @@
             return false;
           }
         });
+        $( "#top_words" ).slideDown("slow");
+        console.log("Completed pulling top words.")
       });
     };
     pullTopWords(mexico_topic_id);
 
+
     $( "a#reload_top_words" ).live( "click", function( event ) {
       event.preventDefault();
-      console.log('Reflowing top words list...')
       $("#top_words_list").empty();
       pullTopWords(mexico_topic_id);
     });
@@ -285,13 +308,15 @@
             return false;
           }
         });
+        $( "#top_media" ).slideDown("slow");
+        console.log("Completed pulling top media.")
       });
     };
     pullTopMedia(mexico_topic_id);
 
+
     $( "a#reload_top_media" ).live( "click", function( event ) {
       event.preventDefault();
-      console.log('Reflowing top media list...')
       $("#top_media_list").empty();
       pullTopMedia(mexico_topic_id);
     });
@@ -331,13 +356,16 @@
   <h1 class="header">MEXICO</h1>
   <hr>
 
-  <div id="contentBox" style="margin:0px auto; width:70%">
+  <div id="contentBox" style="margin:0px auto; width:75%">
 
    <!-- columns divs, float left, no margin so there is no space between column, width=1/3 -->
-      <div id="column1" style="float:left; margin:0; width:33%;">
-          <h2>Most Powerful Voices In Media</h2>
+      <div id="column1" style="float:left; margin:2px; width:33%;">
+          <div class="column_header">
+            <img src="/static/icons/microphone.svg" width="40px"/>
+            <h2>Voices</h2>
+          </div>
           <hr>
-          <a href="#" id="reload_top_media" style="text-align: center;">[Reload Stories]</a>
+          <!-- <a href="#" id="reload_top_media" style="text-align: center;">[Reload Stories]</a> -->
           <div id="top_media">
             <ul id="top_media_list">
 
@@ -345,20 +373,20 @@
           </div>
       </div>
 
-      <div id="column2" style="float:left; margin:0;width:33%;">
-         <h2>Top Linked To Stories</h2>
+      <div id="column2" style="float:left; margin:2px; width:33%;">
+         <h2>Influential Stories</h2>
          <hr>
-         <a href="#" id="reload_stories" style="text-align: center;">[Reload Stories]</a>
+         <!-- <a href="#" id="reload_stories" style="text-align: center;">[Reload Stories]</a> -->
          <div id="stories">
           <ul id="stories_list">
           </ul>
         </div>
       </div>
 
-      <div id="column3" style="float:left; margin:0;width:33%">
-        <h2>Most Frequently Used Words</h2> 
+      <div id="column3" style="float:left; margin:2px; width:33%">
+        <h2>Words</h2> 
         <hr>
-        <a href="#" id="reload_top_words" style="text-align: center;">[Reload Words]</a>
+        <!-- <a href="#" id="reload_top_words" style="text-align: center;">[Reload Words]</a> -->
         <div id="top_words">
           <ul id="top_words_list">
           </ul>

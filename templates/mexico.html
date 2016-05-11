@@ -3,210 +3,18 @@
 <!-- http://www.sitepoint.com/a-basic-html5-template/ -->
 <!-- http://stackoverflow.com/questions/15409605/css3-filter-blur-keyframe-animation -->
 <!-- alt effect: http://stackoverflow.com/questions/24709915/blur-the-edges-of-an-image-or-background-image-with-css -->
-
 <!-- Google Categorical Colors http://bl.ocks.org/aaizemberg/78bd3dade9593896a59d -->
+<!-- Annotator.js Correct Init Code: http://docs.annotatorjs.org/en/v1.2.x/getting-started.html -->
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>CSS Mouse-Over Blur Animation Example</title>
-  <meta name="description" content="Code for animated bluring of images on mouseover.">
+  <title>Country News Explorer</title>
+  <meta name="description" content="An interface for exploring media at the country level.">
   <meta name="author" content="Sands Fish">
 
-  <style>
-  	body {
-
-		/*Examples of gradient CSS: http://jsfiddle.net/banded_krait/AZK5d/2/*/
-		/*Radial Gradients: http://stackoverflow.com/questions/22216627/how-to-create-a-vignette-with-background-gradients;*/
-		/*Defined Edges with Blur: http://stackoverflow.com/questions/12224320/defined-edges-with-css3-filter-blur*/
-
-		/*background: url(mexico-city-background.jpg) no-repeat center -200px;*/
-  		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(/static/images/mexico-city-background.jpg) no-repeat center -200px;
-		/*background: radial-gradient(transparent, black), url(mexico-city-background.jpg) no-repeat center -200px;*/
-		/*background: radial-gradient(transparent, black), */
-		/*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(white)), url(mexico-city-background.jpg) no-repeat center -200px;;*/
-		/*background: -webkit-linear-gradient(top, black, white), url(mexico-city-background.jpg) no-repeat center -200px;*/
-		/*background: -webkit-gradient(linear, left top, left bottom, from(#1A1B1B), to(#191919)), url(mexico-city-background.jpg) no-repeat center -200px;*/
-		/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(24%,rgba(0,0,0,0)), color-stop(86%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))), url(mexico-city-background.jpg) no-repeat center -200px;;*/
-		/*background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 24%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%), url(mexico-city-background.jpg) no-repeat center -200px;*/
-		  background-color: #000000;
-  		background-position:center top;
-  		background-size: 100%;
-    	/*min-height: 100%;*/
-      /*font-family: 'Merriweather', serif;*/
-      font-family: 'Abel', sans-serif;
-      font-size: 20pt;
-      color: #ffffff;
-    	-webkit-font-smoothing: antialiased;
-      margin: 0px auto;
-  	}
-
-	@-webkit-keyframes image_blur {
-	    0% { -webkit-filter: blur(0px);}
-	    100% { -webkit-filter: blur(5px);}
-	}
-
-  h1 {
-    font-family: 'Abel', sans-serif;
-  }
-
-	#image {
-	    width: 800px;
-	    height: 600px;
-	    background: url('/static/images/mexico-city-background.jpg'), radial-gradient(transparent, black);
-	    /*background: url('mexico-city-background.jpg');*/
-	    overflow: hidden;
-	    overflow-x: hidden;
-	    overflow-y: hidden;
-	    margin: -5px -10px -10px -5px;
-	    /*border-style: solid;
-    	border-color: #ffffff;
-    	border-bottom-style: none;*/
-    	position: absolute;
-    	background-clip: border-box;
-    	background-origin: padding-box;
-    	background-repeat: repeat;;
-    	background-size: auto;
-    	clip: auto;
-    	clip-path: none;
-    	clip-rule: nonzero;
-    	box-sizing: content-box;
-    	display: block;
-    	margin-top: 0px;
-    	margin-bottom: 0px;
-    	margin-left: 0px;
-    	margin-right: 0px;
-    	mask-type: luminance;
-	}
-
-	#bounding_box {
-		border-style: solid 2px;
-    	border-color: #ffffff;
-    	clip: auto;
-    	clip-path: none;
-    	clip-rule: nonzero;
-    	box-sizing: content-box;
-    	display: block;
-    	margin-top: 0px;
-    	margin-bottom: 0px;
-    	margin-left: 0px;
-    	margin-right: 0px;
-    	overflow: hidden;
-	    overflow-x: hidden;
-	    overflow-y: hidden;
-      float: right;
-      padding: 25px;
-	}
-
-	#image:hover {
-	    -webkit-animation: image_blur 1s;
-	    /*filter: blur(5px);
-	    -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);*/
-    	margin: -5px -10px -10px -5px;
-	    animation-fill-mode: forwards;
-	    animation-timing-function: ease;
-	}
-
-	.header {
-		color: #ffffff;
-		font-size: 100px;
-		text-align: center;
-    margin: 0px auto;
-	}
-
-  .top_words {
-    border-style: solid 2px;
-    border-color: #ffffff;
-    box-sizing: content-box;
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  a {
-    color: #ffffff;
-  }
-
-  #sentences {
-    filter: blur(5px);
-    border-style: solid 2px;
-    border-color: #ffffff;
-  }
-
-  .wrapper {
-    height:300px;
-    width:300px;
-    position: relative;
-    -webkit-filter: blur(0px);
-    border-style: solid 2px;
-    border-color: #ffffff;
-  }
-  .blur {
-    width:100%;
-    height:100%;
-    position: absolute;
-    background-image:url('/static/images/mexico-city-background.jpg');
-    background-size:cover;
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -ms-filter: blur(4px);
-    -o-filter: blur(4px);
-    filter: blur(4px);
-  }
-  .content{
-    position: absolute;
-    background-color:red;
-    border-style: solid 2px;
-    border-color: #ffffff;
-  }
-
-  hr {
-
-    border: 0;
-    border-top: 1px solid #fff;
-    opacity: .6;
-    width: 98%;
-  }
-
-  h2 {
-    text-align: center;
-  }
-
-  li {
-    border-style: solid 2px;
-    border-color: #ffffff;
-    padding: 5px;
-  }
-
-  #stories, #top_words, #top_media {
-    display: none;
-    background-color: #ffffff;
-    background: rgba(255, 255, 255, 0.3);
-  }
-
-  .column_header img {
-    float: left;
-    /*width: 100px;
-    height: 100px;*/
-    /*background: #555;*/
-  }
-
-  .column_header h1 {
-    position: relative;
-    margin-left: 0px;
-    /*top: 18px;
-    left: 10px;*/
-  }
-
-  </style>
-
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+  <link rel="stylesheet" href="static/css/styles.css?v=1.0">
+  <link rel="stylesheet" href="static/css/annotator.min.css">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300italic,700' rel='stylesheet' type='text/css'>
 
@@ -216,147 +24,23 @@
 </head>
 
 <body>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <!-- // <script src="js/scripts.js"></script> -->
-  
-  <script>
-
-    var mexico_topic_id = 1350;
-    var nigeria_topic_id = 1348;
-
-    ////////////////////////////////////////////////////////////////////
-    // Top Stories for Topic
-
-    var pullStories = function(terms) {
-      var storiesAPI = "http://localhost:5000/stories_raw";
-      $.getJSON( storiesAPI, {
-        terms: terms,
-        format: "json"
-      })
-      .done(function( data ) {
-        $(data['results']).each(function( i, item ) {
-          $( "<li>" ).append( 
-            $("<a>", { href: item.url, target: '_article' }).text(
-              item.title
-            ) 
-          ).appendTo( "#stories_list" );
-          if(i > 25) {
-            return false;
-          }
-        });
-        $( "#stories" ).slideDown("slow");
-        console.log("Completed pulling top stories.")
-      });
-    };
-    pullStories("mexico");
-    
-
-    $( "a#reload_stories" ).live( "click", function( event ) {
-      event.preventDefault();
-      $("#stories_list").empty();
-      pullStories("mexico");
-    });
-
-    ////////////////////////////////////////////////////////////////////
-    // Top Words for Topic
-
-    var pullTopWords = function(topic_id) {
-      var topWordsAPI = "http://localhost:5000/top_words/" + topic_id;
-      $.getJSON( topWordsAPI, {
-        format: "json"
-      })
-      .done(function( data ) {
-        $(data['words']).each(function( i, item ) {
-          $( "<li>" ).append( 
-            $("<a>", { href: '#', target: '_word' }).text(
-              item.term + ' (' + item.count + ')'
-            ) 
-          ).appendTo( "#top_words_list" );
-          if(i > 25) {
-            return false;
-          }
-        });
-        $( "#top_words" ).slideDown("slow");
-        console.log("Completed pulling top words.")
-      });
-    };
-    pullTopWords(mexico_topic_id);
-
-
-    $( "a#reload_top_words" ).live( "click", function( event ) {
-      event.preventDefault();
-      $("#top_words_list").empty();
-      pullTopWords(mexico_topic_id);
-    });
-
-    ////////////////////////////////////////////////////////////////////
-    // Top Media for Topic
-
-    var pullTopMedia = function(topic_id) {
-      var topMediaAPI = "http://localhost:5000/top_media/" + topic_id;
-      $.getJSON( topMediaAPI, {
-        format: "json"
-      })
-      .done(function( data ) {
-        $(data['media']).each(function( i, item ) {
-          $( "<li>" ).append( 
-            $("<a>", { href: item.url, target: '_media' }).text(
-              item.name + ' (' + item.inlink_count + ' / ' + item.bitly_click_count + ')'
-            ) 
-          ).appendTo( "#top_media_list" );
-          if(i > 25) {
-            return false;
-          }
-        });
-        $( "#top_media" ).slideDown("slow");
-        console.log("Completed pulling top media.")
-      });
-    };
-    pullTopMedia(mexico_topic_id);
-
-
-    $( "a#reload_top_media" ).live( "click", function( event ) {
-      event.preventDefault();
-      $("#top_media_list").empty();
-      pullTopMedia(mexico_topic_id);
-    });
-
-
-
-  // TODO: Background colored neon red to green to yellow to blue based on inlink count
-  // var pullTopicStories = (function(cid, terms) {
-  //   console.log(cid);
-  //   var topicStoriesAPI = 'http://localhost:5000/top_stories/' + cid;
-  //   $.getJSON( topicStoriesAPI, {
-  //     terms: terms,
-  //     format: "json"
-  //   });
-  // };)
-
-  // pullTopicStories.promise().done(function( data ) {
-  //   console.log(data);
-  //   $(data['stories']).each(function( i, item ) {
-  //     $( "<li>" ).append( 
-  //       $("<a>", { href: item.url, target: '_article' }).text(
-  //         item.title + ' (' + item.inlink_count + ')'
-  //       ).append($('<br>'))
-  //     ).appendTo( "#top_stories_inlink_list" );
-  //   });
-  // });
-
-  // pullTopicStories('1348', '');
-
-  // Refresh list of stories with new call to API
-
-
-  </script>
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="static/javascript/annotator-full.min.js"></script>
+  <script src="http://localhost:5000/countrynews.js?topic_id={{topic_id}}"></script>
 
   <br>
   <h1 class="header">MEXICO</h1>
+
+  <span id="notebook_toggle" style="float: right;"><a href="#" onClick="openNotebook();">Notebook</a></span>
+  
   <hr>
 
   <div id="contentBox" style="margin:0px auto; width:75%">
+
+    <div id="notebook" style="width: 95%; margin: auto; height: 95%">
+      <h2>Research Notebook</h2>
+      <a href="#" onClick="annotate();">Annotate</a>
+    </div>
 
    <!-- columns divs, float left, no margin so there is no space between column, width=1/3 -->
       <div id="column1" style="float:left; margin:2px; width:33%;">
@@ -371,24 +55,48 @@
 
             </ul>
           </div>
+          <div id="nb_top_media">
+            <ul id="nb_top_media_list">
+
+            </ul>
+          </div>
       </div>
 
       <div id="column2" style="float:left; margin:2px; width:33%;">
-         <h2>Influential Stories</h2>
-         <hr>
-         <!-- <a href="#" id="reload_stories" style="text-align: center;">[Reload Stories]</a> -->
-         <div id="stories">
-          <ul id="stories_list">
+        <div class="column_header">
+          <img src="/static/icons/newspaper.svg" width="40px"/>
+          <h2>Influential Stories</h2>
+        </div>
+        <hr>
+        <!-- <a href="#" id="reload_stories" style="text-align: center;">[Reload Stories]</a> -->
+        <div id="top_stories">
+          <ul id="top_stories_list">
+
           </ul>
         </div>
+        <div id="nb_top_stories">
+          <ul id="nb_top_stories_list">
+
+          </ul>
+        </div>
+
       </div>
 
       <div id="column3" style="float:left; margin:2px; width:33%">
-        <h2>Words</h2> 
+        <div class="column_header">
+          <img src="/static/icons/speechbubble.svg" width="40px"/>
+          <h2>Words</h2>
+        </div>
         <hr>
         <!-- <a href="#" id="reload_top_words" style="text-align: center;">[Reload Words]</a> -->
         <div id="top_words">
           <ul id="top_words_list">
+
+          </ul>
+        </div>
+        <div id="nb_top_words">
+          <ul id="nb_top_words_list">
+
           </ul>
         </div>
       </div>
@@ -398,6 +106,5 @@
   <!-- <div id="bounding_box" >
 	 <img id="image" style="margin: -5px -10px -10px -5px;"/>  
   </div> -->
-
 </body>
 </html>

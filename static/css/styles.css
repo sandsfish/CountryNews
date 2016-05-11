@@ -1,0 +1,231 @@
+  	body {
+
+		/*Examples of gradient CSS: http://jsfiddle.net/banded_krait/AZK5d/2/*/
+		/*Radial Gradients: http://stackoverflow.com/questions/22216627/how-to-create-a-vignette-with-background-gradients;*/
+		/*Defined Edges with Blur: http://stackoverflow.com/questions/12224320/defined-edges-with-css3-filter-blur*/
+
+		/*background: url(mexico-city-background.jpg) no-repeat center -200px;*/
+  		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(/static/images/mexico-city-background.jpg) no-repeat center -200px;
+		/*background: radial-gradient(transparent, black), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		/*background: radial-gradient(transparent, black), */
+		/*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(white)), url(mexico-city-background.jpg) no-repeat center -200px;;*/
+		/*background: -webkit-linear-gradient(top, black, white), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		/*background: -webkit-gradient(linear, left top, left bottom, from(#1A1B1B), to(#191919)), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(24%,rgba(0,0,0,0)), color-stop(86%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))), url(mexico-city-background.jpg) no-repeat center -200px;;*/
+		/*background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 24%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%), url(mexico-city-background.jpg) no-repeat center -200px;*/
+		  background-color: #000000;
+  		background-position:center top;
+  		background-size: 100%;
+    	/*min-height: 100%;*/
+      /*font-family: 'Merriweather', serif;*/
+      font-family: 'Abel', sans-serif;
+      font-size: 20pt;
+      color: #ffffff;
+    	-webkit-font-smoothing: antialiased;
+      margin: 25px;
+  	}
+
+	@-webkit-keyframes image_blur {
+	    0% { -webkit-filter: blur(0px);}
+	    100% { -webkit-filter: blur(5px);}
+	}
+
+  h1 {
+    font-family: 'Abel', sans-serif;
+  }
+
+	#image {
+	    width: 800px;
+	    height: 600px;
+	    background: url('/static/images/mexico-city-background.jpg'), radial-gradient(transparent, black);
+	    /*background: url('mexico-city-background.jpg');*/
+	    overflow: hidden;
+	    overflow-x: hidden;
+	    overflow-y: hidden;
+	    margin: -5px -10px -10px -5px;
+	    /*border-style: solid;
+    	border-color: #ffffff;
+    	border-bottom-style: none;*/
+    	position: absolute;
+    	background-clip: border-box;
+    	background-origin: padding-box;
+    	background-repeat: repeat;;
+    	background-size: auto;
+    	clip: auto;
+    	clip-path: none;
+    	clip-rule: nonzero;
+    	box-sizing: content-box;
+    	display: block;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;
+    	margin-right: 0px;
+    	mask-type: luminance;
+	}
+
+	#bounding_box {
+		border-style: solid 2px;
+    	border-color: #ffffff;
+    	clip: auto;
+    	clip-path: none;
+    	clip-rule: nonzero;
+    	box-sizing: content-box;
+    	display: block;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;
+    	margin-right: 0px;
+    	overflow: hidden;
+	    overflow-x: hidden;
+	    overflow-y: hidden;
+      float: right;
+      padding: 25px;
+	}
+
+	#image:hover {
+	    -webkit-animation: image_blur 1s;
+	    /*filter: blur(5px);
+	    -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);*/
+    	margin: -5px -10px -10px -5px;
+	    animation-fill-mode: forwards;
+	    animation-timing-function: ease;
+	}
+
+	.header {
+		color: #ffffff;
+		font-size: 100px;
+		text-align: center;
+    margin: 0px auto;
+	}
+
+  .top_words {
+    border-style: solid 2px;
+    border-color: #ffffff;
+    box-sizing: content-box;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  ul#top_words_list, ul#top_stories_list, ul#top_media_list {
+    padding: 0px;
+  }
+
+  div.item {
+    width:auto;
+    height:auto;
+    padding:0.5em;
+    
+    transition: background 0.5s ease-in;
+    -moz-transition: background 0.5s ease-in;
+    -webkit-transition: background 0.5s ease-in;
+    -o-transition: background 0.5s ease-in;
+
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+  }
+
+  div.item:hover {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  a {
+    color: #ffffff;
+  }
+
+  #sentences {
+    filter: blur(5px);
+    border-style: solid 2px;
+    border-color: #ffffff;
+  }
+
+  .wrapper {
+    height:300px;
+    width:300px;
+    position: relative;
+    -webkit-filter: blur(0px);
+    border-style: solid 2px;
+    border-color: #ffffff;
+  }
+  .blur {
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-image:url('/static/images/mexico-city-background.jpg');
+    background-size:cover;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px);
+    filter: blur(4px);
+  }
+  .content{
+    position: absolute;
+    background-color:red;
+    border-style: solid 2px;
+    border-color: #ffffff;
+  }
+
+  hr {
+
+    border: 0;
+    border-top: 1px solid #fff;
+    opacity: .6;
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  li {
+    border-style: solid 2px;
+    border-color: #ffffff;
+    padding: 5px;
+  }
+
+  #top_stories, #top_words, #top_media {
+    display: none;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .column_header img {
+    float: left;
+    /*width: 100px;
+    height: 100px;*/
+    /*background: #555;*/
+  }
+
+  .column_header h1 {
+    position: relative;
+    margin-left: 0px;
+    /*top: 18px;
+    left: 10px;*/
+  }
+
+  #column1, #column2, #column3 {
+    overflow: hidden;
+  }
+
+  #notebook {
+    display: none;
+    background: rgba(255, 0, 255, 0.3);
+  }
+
+  #nb_top_words_list, #nb_top_stories_list, #nb_top_media_list {
+    display: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+
+
+
+
+
+

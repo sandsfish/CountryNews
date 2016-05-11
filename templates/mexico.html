@@ -13,8 +13,8 @@
   <meta name="description" content="An interface for exploring media at the country level.">
   <meta name="author" content="Sands Fish">
 
-  <link rel="stylesheet" href="static/css/styles.css?v=1.0">
-  <link rel="stylesheet" href="static/css/annotator.min.css">
+  <link rel="stylesheet" href="/static/css/styles.css?v=1.0">
+  <link rel="stylesheet" href="/static/css/annotator.min.css">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300italic,700' rel='stylesheet' type='text/css'>
 
@@ -24,12 +24,12 @@
 </head>
 
 <body>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script src="static/javascript/annotator-full.min.js"></script>
+  <script src="/static/javascript/jquery.min.js"></script>
+  <script src="/static/javascript/annotator-full.min.js"></script>
   <script src="http://localhost:5000/countrynews.js?topic_id={{topic_id}}"></script>
 
   <br>
-  <h1 class="header">MEXICO</h1>
+  <h1 class="header">{{title}}</h1>
 
   <span id="notebook_toggle" style="float: right;"><a href="#" onClick="openNotebook();">Notebook</a></span>
   
@@ -37,19 +37,22 @@
 
   <div id="contentBox" style="margin:0px auto; width:75%">
 
-    <div id="notebook" style="width: 95%; margin: auto; height: 95%">
+    <div id="notebook" style="width: 95%; margin: auto;">
+      <br>
       <h2>Research Notebook</h2>
-      <a href="#" onClick="annotate();">Annotate</a>
+      <div style="position:relative; margin: 0 auto;">
+        <a href="#" onClick="createMap();">Map</a>
+        <a href="#" onClick="annotate();">Annotate</a>
+      </div>
     </div>
 
-   <!-- columns divs, float left, no margin so there is no space between column, width=1/3 -->
+      <!-- columns divs, float left, no margin so there is no space between column, width=1/3 -->
       <div id="column1" style="float:left; margin:2px; width:33%;">
           <div class="column_header">
             <img src="/static/icons/microphone.svg" width="40px"/>
             <h2>Voices</h2>
           </div>
           <hr>
-          <!-- <a href="#" id="reload_top_media" style="text-align: center;">[Reload Stories]</a> -->
           <div id="top_media">
             <ul id="top_media_list">
 
@@ -57,7 +60,7 @@
           </div>
           <div id="nb_top_media">
             <ul id="nb_top_media_list">
-
+              
             </ul>
           </div>
       </div>
@@ -68,7 +71,6 @@
           <h2>Influential Stories</h2>
         </div>
         <hr>
-        <!-- <a href="#" id="reload_stories" style="text-align: center;">[Reload Stories]</a> -->
         <div id="top_stories">
           <ul id="top_stories_list">
 
@@ -76,7 +78,7 @@
         </div>
         <div id="nb_top_stories">
           <ul id="nb_top_stories_list">
-
+            
           </ul>
         </div>
 
@@ -87,24 +89,22 @@
           <img src="/static/icons/speechbubble.svg" width="40px"/>
           <h2>Words</h2>
         </div>
+        
         <hr>
-        <!-- <a href="#" id="reload_top_words" style="text-align: center;">[Reload Words]</a> -->
+        
         <div id="top_words">
           <ul id="top_words_list">
 
           </ul>
         </div>
+        
         <div id="nb_top_words">
           <ul id="nb_top_words_list">
-
+            
           </ul>
         </div>
+
       </div>
   </div>
-
-
-  <!-- <div id="bounding_box" >
-	 <img id="image" style="margin: -5px -10px -10px -5px;"/>  
-  </div> -->
 </body>
 </html>

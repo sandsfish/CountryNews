@@ -56,12 +56,19 @@ def countrynews():
 
 # static render example:
 # @app.route('/landscape/<int:controversy_id>/<int:dump_id>/<int:timeslice_id>')
-@app.route('/mexico')
-def landscape():
+@app.route('/country/<string:country>')
+def country(country):
 	# create_landscape(controversy_id, dump_id, timeslice_id)
-	# top_words = wordcount(mexico_cid)
-	# return render_template('mexico.html', top=top_words)
-	return render_template('mexico.html', topic_id=mexico_cid)
+	
+	if(country == 'mexico'):
+		return render_template('mexico.html', topic_id=mexico_cid, title="MEXICO", background="mexico-city-background.jpg")
+	if(country == 'nigeria'):
+		return render_template('mexico.html', topic_id=nigeria_cid, title="NIGERIA", background="nigeria-lagos-background.jpg")
+
+	# Need to also change background image and country name
+	# Pass these as parameters? 
+	# Or store them in some location?
+
 
 @app.route('/wordcount')
 def wordcount(cid, num_words=50):
@@ -137,6 +144,11 @@ def top_words(cid):
 		words = words_response.text
 		cache.set(topicWordsAPI, words, timeout=cache_timeout)
 	return(words)
+
+@app.route('/story/<int:id>')
+def story(id):
+	story = mc.story(id)
+	return(jsonify(story))
 
 if __name__ == '__main__':
     app.run(debug=True)

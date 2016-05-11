@@ -5,7 +5,6 @@
 		/*Defined Edges with Blur: http://stackoverflow.com/questions/12224320/defined-edges-with-css3-filter-blur*/
 
 		/*background: url(mexico-city-background.jpg) no-repeat center -200px;*/
-  		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(/static/images/mexico-city-background.jpg) no-repeat center -200px;
 		/*background: radial-gradient(transparent, black), url(mexico-city-background.jpg) no-repeat center -200px;*/
 		/*background: radial-gradient(transparent, black), */
 		/*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(white)), url(mexico-city-background.jpg) no-repeat center -200px;;*/
@@ -13,13 +12,14 @@
 		/*background: -webkit-gradient(linear, left top, left bottom, from(#1A1B1B), to(#191919)), url(mexico-city-background.jpg) no-repeat center -200px;*/
 		/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(24%,rgba(0,0,0,0)), color-stop(86%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))), url(mexico-city-background.jpg) no-repeat center -200px;;*/
 		/*background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 24%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%), url(mexico-city-background.jpg) no-repeat center -200px;*/
-		  background-color: #000000;
+		  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(/static/images/mexico-city-background.jpg) no-repeat center -200px;
+      background-color: #000000;
   		background-position:center top;
   		background-size: 100%;
     	/*min-height: 100%;*/
       /*font-family: 'Merriweather', serif;*/
       font-family: 'Abel', sans-serif;
-      font-size: 20pt;
+      font-size: 15pt;
       color: #ffffff;
     	-webkit-font-smoothing: antialiased;
       margin: 25px;
@@ -215,11 +215,13 @@
 
   #notebook {
     display: none;
-    background: rgba(255, 0, 255, 0.3);
+    padding: 10px;
+    background: rgba(0, 100, 255, 0.5);
   }
 
-  #nb_top_words_list, #nb_top_stories_list, #nb_top_media_list {
+  #nb_top_words, #nb_top_stories, #nb_top_media {
     display: none;
+    padding: 0px;
     background: rgba(255, 255, 255, 0.3);
   }
 

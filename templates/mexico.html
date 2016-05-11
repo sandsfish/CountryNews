@@ -4,6 +4,8 @@
 <!-- http://stackoverflow.com/questions/15409605/css3-filter-blur-keyframe-animation -->
 <!-- alt effect: http://stackoverflow.com/questions/24709915/blur-the-edges-of-an-image-or-background-image-with-css -->
 
+<!-- Google Categorical Colors http://bl.ocks.org/aaizemberg/78bd3dade9593896a59d -->
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -30,13 +32,14 @@
 		/*background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 24%,rgba(0,0,0,1) 86%,rgba(0,0,0,1) 100%), url(mexico-city-background.jpg) no-repeat center -200px;*/
 		  background-color: #000000;
   		background-position:center top;
-  		background-size: cover;
-    	min-height: 100%;
+  		background-size: 100%;
+    	/*min-height: 100%;*/
       /*font-family: 'Merriweather', serif;*/
       font-family: 'Abel', sans-serif;
       font-size: 20pt;
       color: #ffffff;
     	-webkit-font-smoothing: antialiased;
+      margin: 0px auto;
   	}
 
 	@-webkit-keyframes image_blur {
@@ -114,6 +117,7 @@
 		color: #ffffff;
 		font-size: 100px;
 		text-align: center;
+    margin: 0px auto;
 	}
 
   .top_words {
@@ -172,6 +176,17 @@
     opacity: .6;
     width: 98%;
   }
+
+  h2 {
+    text-align: center;
+  }
+
+  li {
+    border-style: solid 2px;
+    border-color: #ffffff;
+    padding: 5px;
+  }
+
   </style>
 
   <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
@@ -189,71 +204,172 @@
   
   <script>
 
-  var pullStories = function(terms) {
-    (function(terms) {
+    var mexico_topic_id = 1350;
+    var nigeria_topic_id = 1348;
+
+    var pullStories = function(terms) {
+      console.log(terms);
       var storiesAPI = "http://localhost:5000/stories_raw";
       $.getJSON( storiesAPI, {
-        terms: "gobierno",
+        terms: terms,
         format: "json"
       })
-        .done(function( data ) {
-          // var data_parsed = $.parseJSON(data);
-          console.log(data);
-          $(data['results']).each(function( i, item ) {
-            console.log(item.term);
-            $( "<li>" ).append( 
-              $("<a>", { href: item.url, target: '_article' }).text(
-                item.title
-              ) 
-            ).appendTo( "#sentence_list" );
-          });
+      .done(function( data ) {
+        $(data['results']).each(function( i, item ) {
+          $( "<li>" ).append( 
+            $("<a>", { href: item.url, target: '_article' }).text(
+              item.title
+            ) 
+          ).appendTo( "#stories_list" );
+          if(i > 25) {
+            return false;
+          }
         });
-    })();
-  }
+      });
+    };
+    pullStories("mexico");
+
+    $( "a#reload_stories" ).live( "click", function( event ) {
+      event.preventDefault();
+      console.log('Reflowing stories list...')
+      $("#stories_list").empty();
+      pullStories("mexico");
+    });
+
+    ////////////////////////////////////////////////////////////////////
+    // Top Words for Topic
+
+    var pullTopWords = function(topic_id) {
+      var topWordsAPI = "http://localhost:5000/top_words/" + topic_id;
+      $.getJSON( topWordsAPI, {
+        format: "json"
+      })
+      .done(function( data ) {
+        $(data['words']).each(function( i, item ) {
+          $( "<li>" ).append( 
+            $("<a>", { href: '#', target: '_word' }).text(
+              item.term + ' (' + item.count + ')'
+            ) 
+          ).appendTo( "#top_words_list" );
+          if(i > 25) {
+            return false;
+          }
+        });
+      });
+    };
+    pullTopWords(mexico_topic_id);
+
+    $( "a#reload_top_words" ).live( "click", function( event ) {
+      event.preventDefault();
+      console.log('Reflowing top words list...')
+      $("#top_words_list").empty();
+      pullTopWords(mexico_topic_id);
+    });
+
+    ////////////////////////////////////////////////////////////////////
+    // Top Media for Topic
+
+    var pullTopMedia = function(topic_id) {
+      var topMediaAPI = "http://localhost:5000/top_media/" + topic_id;
+      $.getJSON( topMediaAPI, {
+        format: "json"
+      })
+      .done(function( data ) {
+        $(data['media']).each(function( i, item ) {
+          $( "<li>" ).append( 
+            $("<a>", { href: item.url, target: '_media' }).text(
+              item.name + ' (' + item.inlink_count + ' / ' + item.bitly_click_count + ')'
+            ) 
+          ).appendTo( "#top_media_list" );
+          if(i > 25) {
+            return false;
+          }
+        });
+      });
+    };
+    pullTopMedia(mexico_topic_id);
+
+    $( "a#reload_top_media" ).live( "click", function( event ) {
+      event.preventDefault();
+      console.log('Reflowing top media list...')
+      $("#top_media_list").empty();
+      pullTopMedia(mexico_topic_id);
+    });
+
+
+
+  // TODO: Background colored neon red to green to yellow to blue based on inlink count
+  // var pullTopicStories = (function(cid, terms) {
+  //   console.log(cid);
+  //   var topicStoriesAPI = 'http://localhost:5000/top_stories/' + cid;
+  //   $.getJSON( topicStoriesAPI, {
+  //     terms: terms,
+  //     format: "json"
+  //   });
+  // };)
+
+  // pullTopicStories.promise().done(function( data ) {
+  //   console.log(data);
+  //   $(data['stories']).each(function( i, item ) {
+  //     $( "<li>" ).append( 
+  //       $("<a>", { href: item.url, target: '_article' }).text(
+  //         item.title + ' (' + item.inlink_count + ')'
+  //       ).append($('<br>'))
+  //     ).appendTo( "#top_stories_inlink_list" );
+  //   });
+  // });
+
+  // pullTopicStories('1348', '');
 
   // Refresh list of stories with new call to API
-  $( "a#reload_stories" ).live( "click", function( event ) {
-    event.preventDefault();
-    console.log('Reflowing stories list...')
-    $("#sentence_list").empty();
-    pullStories();
-    console.log('Reflow complete.')
-  });
+
 
   </script>
 
 
-  
+  <br>
   <h1 class="header">MEXICO</h1>
-
   <hr>
 
-  <div id="bounding_box" >
+  <div id="contentBox" style="margin:0px auto; width:70%">
+
+   <!-- columns divs, float left, no margin so there is no space between column, width=1/3 -->
+      <div id="column1" style="float:left; margin:0; width:33%;">
+          <h2>Most Powerful Voices In Media</h2>
+          <hr>
+          <a href="#" id="reload_top_media" style="text-align: center;">[Reload Stories]</a>
+          <div id="top_media">
+            <ul id="top_media_list">
+
+            </ul>
+          </div>
+      </div>
+
+      <div id="column2" style="float:left; margin:0;width:33%;">
+         <h2>Top Linked To Stories</h2>
+         <hr>
+         <a href="#" id="reload_stories" style="text-align: center;">[Reload Stories]</a>
+         <div id="stories">
+          <ul id="stories_list">
+          </ul>
+        </div>
+      </div>
+
+      <div id="column3" style="float:left; margin:0;width:33%">
+        <h2>Most Frequently Used Words</h2> 
+        <hr>
+        <a href="#" id="reload_top_words" style="text-align: center;">[Reload Words]</a>
+        <div id="top_words">
+          <ul id="top_words_list">
+          </ul>
+        </div>
+      </div>
+  </div>
+
+
+  <!-- <div id="bounding_box" >
 	 <img id="image" style="margin: -5px -10px -10px -5px;"/>  
-  </div>
-
-  <a href="#" id="reload_stories">[Reload Stories]</a>
-
-  <div id="sentences">
-    <ul id="sentence_list">
-    </ul>
-  </div>
-
-  <div class="wrapper">
-    <div class="blur"></div>
-    <div class="content">my text</div>
-  </div>
-
-  <br><br><br>
-
-  <div id="top_words">
-  <ul>
-  {% for word in top %}
-    <li>{{ word.term }} - {{ word.count }}</li>
-    <!-- <li>{{word}}</li> -->
-  {% endfor %}
-  </ul>
-  </div>
+  </div> -->
 
 </body>
 </html>

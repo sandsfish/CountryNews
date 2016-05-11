@@ -1,6 +1,7 @@
 from flask import render_template
 from flask import request
 from flask import Flask, jsonify
+from werkzeug.contrib.cache import SimpleCache
 
 import ConfigParser
 import datetime
@@ -19,6 +20,9 @@ basedir = os.path.dirname(os.path.abspath(__file__))
 import logging
 logging.basicConfig(filename=os.path.join(basedir, 'log', 'landscape.log'), level=logging.DEBUG)
 
+cache = SimpleCache()
+cache_timeout = 24 * 60
+
 config = ConfigParser.ConfigParser()
 config.read(os.path.join(basedir, 'app.config'))
 api_key = config.get('mediacloud', 'key')
@@ -32,12 +36,23 @@ mc_admin = mediacloud.api.AdminMediaCloud(mc)
 print(mc_admin)
 
 mexico_cid = 1350
+nigeria_cid = 1348
+
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     return '<h1>PartNews Root</h1>'
+
+@app.route('/about')
+def about():
+	return render_template('about.html')
+
+@app.route('/countrynews.js')
+def countrynews():
+	cid = request.args.get('topic_id')
+	return render_template('countrynews.js', topic_id=cid)
 
 # static render example:
 # @app.route('/landscape/<int:controversy_id>/<int:dump_id>/<int:timeslice_id>')
@@ -46,10 +61,8 @@ def landscape():
 	# create_landscape(controversy_id, dump_id, timeslice_id)
 	# top_words = wordcount(mexico_cid)
 	# return render_template('mexico.html', top=top_words)
-	return render_template('mexico.html')
+	return render_template('mexico.html', topic_id=mexico_cid)
 
-
-# TODO: Cache identical calls to Media Cloud. JavaScript data management if we get that far? But at least don't have to wait for the call every single dev cycle.
 @app.route('/wordcount')
 def wordcount(cid, num_words=50):
 	top_words = []
@@ -91,21 +104,39 @@ def sentences_raw():
 @app.route('/top_stories/<int:cid>')
 def top_stories(cid):
 	topicStoriesAPI = 'https://api.mediacloud.org/api/v2/topics/{0}/stories/list?limit=100&key={1}&sort=social'.format(cid, api_key)
-	stories = requests.get(topicStoriesAPI)
-	return(stories.text)
+	stories = cache.get(topicStoriesAPI)
+
+	if stories is None:
+		print('Cache Miss')
+		stories_response = requests.get(topicStoriesAPI)
+		stories = stories_response.text
+		cache.set(topicStoriesAPI, stories, timeout=cache_timeout)
+	return(stories)
 
 
 @app.route('/top_media/<int:cid>')
 def top_media(cid):
 	topicMediaAPI = 'https://api.mediacloud.org/api/v2/topics/{0}/media/list?limit=100&key={1}'.format(cid, api_key)
-	media = requests.get(topicMediaAPI)
-	return(media.text)
+	media = cache.get(topicMediaAPI)
+
+	if media is None:
+		print('Cache Miss')
+		media_response = requests.get(topicMediaAPI)
+		media = media_response.text
+		cache.set(topicMediaAPI, media, timeout=cache_timeout)
+	return(media)
 
 @app.route('/top_words/<int:cid>')
 def top_words(cid):
 	topicWordsAPI = 'https://api.mediacloud.org/api/v2/topics/{0}/wc/list?key={1}'.format(cid, api_key)
-	words = requests.get(topicWordsAPI)
-	return(words.text)
+	words = cache.get(topicWordsAPI)
+
+	if words is None:
+		print('Cache Miss')
+		words_response = requests.get(topicWordsAPI)
+		words = words_response.text
+		cache.set(topicWordsAPI, words, timeout=cache_timeout)
+	return(words)
 
 if __name__ == '__main__':
     app.run(debug=True)
